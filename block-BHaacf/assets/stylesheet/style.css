@@ -1,0 +1,468 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+.container{
+	max-width: 1320px;
+	width: 100%;
+	margin: auto;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn{
+	background-color: #ED563A;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 14px;	
+	width: 180px;
+	height: 46px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+.btn_a{
+	text-decoration: none;
+	color: #ffffff;
+	letter-spacing: 0.5px;
+}
+.font{
+	font-size: 0;
+}
+/* hero section */
+.video_sec{
+	position: relative;
+}
+.video_sec video{
+	width: 100%;
+}
+ .video_sec .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.753);
+}
+.header{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: #ffffff4d;
+	height: 100px;
+}
+ .logo{
+	font-size: 32px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+ .logo_active{
+	color: #ED563A;
+}
+.nav li .home{
+	text-decoration: none;
+	font-size: 13px;
+	color: #ffffff;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	margin-right: 48px;
+}
+.nav .log_in_btn{
+	width: 120px;
+	margin-top: 0px;
+}
+.nav ul li .home_active{
+	color: #ED563A;
+	font-weight: bolder;
+}
+.nav li .home:hover{
+	color: #ED563A;
+	font-weight: bolder;
+}
+.hero_content{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 2;
+}
+.hero_content h2{
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 900;
+}
+.hero_content h1{
+	font-size: 68px;
+	font-weight: bolder;
+	color: #ffffff;
+}
+ .gym{
+	color: #ED563A;
+}
+
+/* main section */
+
+/* program section */
+.program_content{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	
+}
+.str{
+	font-size: 24px;
+	font-weight: 600;
+
+}
+.str_active{
+	color: #ED563A;
+}
+.program_content img{
+	margin-top: 20px;
+}
+.pro_para{
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 20px;
+	color: gray;
+}
+
+/* features section */
+.program_section{
+	margin-top: 150px;
+}
+.features{
+	margin-top: 100px;
+}
+.feature_one{
+	margin-top: 60px;
+}
+.one_left{
+	/* margin-left: 40px; */
+	width: 46%;
+}
+.one_left_cont{
+	margin-left: 30px;
+}
+.one_left_cont .color_blue{
+	color: #3891FE;
+	font-weight: bolder;
+}
+.one_left_cont h5{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.one_left_cont a{
+	font-size: 13px;
+	color: red;
+	font-weight: bolder;
+	margin-top: 10px;
+	text-decoration: none;
+	line-height: 3;
+}
+.pro_para_new{
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+/* begin section starts */
+
+.begin{
+	background: url(../media/cta-bg.jpg), no-repeat;
+	background-size: cover;
+	height: 400px;
+	margin-top: 150px;
+	
+}
+
+.begin_content{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.begin_content h2{
+	font-size: 32px;
+	color:#ffffff;
+	font-weight: bolder;
+	letter-spacing: 1px;
+}
+.begin_content p{
+	font-size: 13px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-top: 30px;
+}
+.btn{
+	margin-top: 30px;
+}
+
+/* training section css starts */
+.training_section{
+	margin-top: 150px;
+}
+.training{
+	width: 100%;
+	margin-top: 80px;
+}
+.train_left{
+	width: 28%;
+}
+.train_right{
+	width: 63%;
+}
+.train_left_one{
+	margin: auto;
+	width: 90%;
+	height: 100px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.158);
+}
+.train_left_one img{
+	margin-right: 10px;
+}
+.train_left_one .train_span{
+	font-size: 18px;
+	font-weight: bolder;
+	margin-left: 20px;
+	text-decoration: none;
+	color: #272727;
+}
+.btn_new_train{
+	width: 90%;
+	margin:20px auto 0 auto;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.train_left_one .train_span_active{
+	color: red;
+}
+.train_right img{
+	width: 100%;
+	border-radius: 10px;
+}
+ .train_str{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: 10px;
+
+}
+.train_right p{
+	font-size: 15px;
+	line-height: 1.5;
+	margin-top: 10px;
+	/* font-weight: bolder; */
+	color: gray;
+}
+.view_btn{
+	width: 150px;
+	margin-top: 10px;
+}
+
+/* table section css starts */
+.expert_trainers_section{
+	margin-top: 150px;
+}
+
+.schedule_section{
+	background: url(../media/schedule-bg.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	margin-top: 150px;
+}
+.str_new{
+	color: #ffffff;
+}
+.table_para{
+	color: #ffffff;
+}
+.table_Section{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.table_Section legend{
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 2px;
+
+}
+.table_Section .monday{
+	color: red;
+}
+
+table{
+	border: 1px solid gray;
+	margin:48px auto;
+}
+th,td{
+	border: 1px solid #ffffffd8;
+	font-size: 14px;
+	/* letter-spacing: 0.5px; */
+	color: #ffffffd8;
+	padding-top:40px;
+	width: 220px;
+	height: 55px;
+}
+
+/* expert starts */
+.expert{
+	margin-top: 60px;
+}
+.card{
+	border: 1px solid rgba(128, 128, 128, 0.377);
+	box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.397);
+	padding:56px ;
+	border-radius: 5px;
+}
+.card h6 {
+	color: red;
+	margin-top: 20px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: bolder;
+
+}
+ .name{
+	 font-size: 20px;
+	 font-weight: bolder;
+	 margin-top: 15px;
+ }
+.card p{
+	color: gray;
+	margin-top: 20px;
+	line-height: 1.5;
+	font-size: 13px;
+	width: 280px;
+}
+.nav_card{
+	margin-top: 20px;
+
+}
+.nav_card .fb{
+	color: black;
+	font-size: 16px;
+	letter-spacing: 3;
+}
+.fb_new{
+	margin-left: 20px;
+}
+/* map section */
+.map_section{
+	margin-top: 150px;
+}
+.map_left, .map_right{
+	width: 50%;
+	height: 100%;
+}
+.map_right{
+	background: url(../media/contact-bg.jpg) no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+/* form{
+	background-color: #ffffff;
+	width: ;
+} */
+form input{
+	display: block;
+	padding-left: 20px;
+	width: 730px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid rgba(128, 128, 128, 0.226);
+
+}
+
+label input{
+	width: 350px;
+	/* border: 1px solid rgba(128, 128, 128, 0.349); */
+	height: 40px;
+	display: inline-block;
+	border-radius: 5px;
+}
+input:focus, textarea:focus{
+	border: 0;
+	outline: 0;
+}
+textarea{
+	border: 1px solid rgba(128, 128, 128, 0.226);
+	padding:20px 25px;
+	margin-top: 10px;
+}
+form{
+	background-color: #ffffff;
+	width: 75%;
+	padding: 40px 32px;
+	border-radius: 6px;
+}
+
+/* footer starts */
+
+footer{
+	width: 100%;
+	height: 100px;
+	font-size: 13px;
+	margin-top: 5px;
+	letter-spacing: 0.5px;
+
+}
+footer .footer_str{
+	color: red;
+}
+
